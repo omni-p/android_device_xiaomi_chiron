@@ -131,8 +131,8 @@ vendor/lib/libmmcamera_chiron_imx386_semco.so
 vendor/lib/libmmcamera_chiron_ov5675_primax.so
 vendor/lib/libmmcamera_chiron_ov5675_qtech.so
 
-# Display calibration
-etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml
+# Display calibration (Polaris 8.8.28)
+vendor/etc/qdcm_calib_data_jdi_fhd_video_dsi_panel.xml|31a7331fef05b3cef07e54a674cfa8b5f543254a
 
 # Fingerprint
 vendor/lib64/com.fingerprints.extension@1.0.so
