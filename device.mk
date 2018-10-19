@@ -44,7 +44,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/camera/etc/chiron.xml:system/etc/device_features/chiron.xml \
-    $(LOCAL_PATH)/camera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
+    $(LOCAL_PATH)/camera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml \
+    $(LOCAL_PATH)/camera/etc/privapp-permissions-miuicamera.xml:system/etc/permissions/privapp-permissions-miuicamera.xml
 
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
