@@ -21,6 +21,11 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 etc/firmware/tas2559_s_uCDSP.bin:vendor/firmware/tas2559_s_uCDSP.bin
 etc/firmware/tas2559_uCDSP.bin:vendor/firmware/tas2559_uCDSP.bin
 
+# Amplifier calibration files
+vendor/etc/rcv.wav
+vendor/etc/spk.wav
+vendor/etc/ultrasound.wav
+
 # Camera
 etc/dualcamera.png:vendor/etc/dualcamera.png
 
