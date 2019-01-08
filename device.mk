@@ -42,15 +42,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
-# Camera MIUI
-PRODUCT_PACKAGES += \
-    MiuiCamera
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/camera/etc/chiron.xml:system/etc/device_features/chiron.xml \
-    $(LOCAL_PATH)/camera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml \
-    $(LOCAL_PATH)/camera/etc/privapp-permissions-miuicamera.xml:system/etc/permissions/privapp-permissions-miuicamera.xml
-
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
